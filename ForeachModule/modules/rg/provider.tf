@@ -11,11 +11,4 @@ client_secret   = var.client_secret
 
 }
 
-terraform {
-  required_providers {
-    azurerm = {
-      source  = "hashicorp/azurerm"
-      version = "1.14.8"
-    }
-  }
-}
+
